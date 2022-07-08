@@ -1,0 +1,10 @@
+:root {
+  --bg-app: #E6EAF1;
+  --white: #FFF;
+  --primary: #568CF9;
+  --primary-rgb: 87, 141, 250;
+  --primary-hover: #467CE8;
+  --secondary: #C9D7F3;
+  --secondary-rgb: 169, 183, 205;
+  --secondary-hover: #B9C6DF;
+}

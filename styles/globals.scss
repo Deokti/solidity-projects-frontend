@@ -1,0 +1,20 @@
+@import "./bootstrap-reboot.min.scss";
+
+html,
+body {
+  overflow: hidden;
+
+  background-color: var(--bg-app);
+
+  font-family: Roboto, sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.body {
+  background-color: var(--bg-app);
+}
