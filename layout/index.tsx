@@ -1,5 +1,5 @@
-import { Header } from "../components/Header";
-import { Sidebar } from "../components/Sidebar";
+import { Header } from "./Header";
+import { Sidebar } from "./Sidebar";
 import styles from "./Layout.module.scss";
 import { LayoutProps } from "./Layout.props";
 import Logo from "../images/logo.svg";

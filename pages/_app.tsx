@@ -4,6 +4,7 @@ import "../theme/index.css";
 import "@fontsource/roboto";
 import type { AppProps } from "next/app";
 import { Layout } from "../layout";
+import "../services/EthereumService";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

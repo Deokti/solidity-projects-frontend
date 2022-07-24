@@ -5,10 +5,11 @@ import { Project } from "../../config/projects";
 export interface SidebarProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
   Logo?: FunctionComponent | undefined;
+  activeId?: string;
   items: Project[];
 }
 
-export interface SidebareItemProps {
-  active?: string;
+export interface SidebarItemProps {
+  activeId?: string;
   item: Project;
 }
