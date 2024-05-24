@@ -1,0 +1,28 @@
+.root {
+  background-color: var(--main-bg);
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 350px 1fr 1fr;
+  grid-template-rows: 90px 1fr 1fr;
+  grid-template-areas:
+    "sidebar header header"
+    "sidebar children children"
+    "sidebar children children";
+}
+
+.sidebar {
+  background-color: #212529;
+  grid-area: sidebar;
+  color: white;
+}
+
+.header {
+  background-color: #6c757d;
+  grid-area: header;
+}
+
+.children {
+  background-color: aliceblue;
+  grid-area: children;
+}
